@@ -84,19 +84,19 @@ Soit le fichier « Dockerfile » suivant :
 
 |#  | Instruction|
 |---|---|
-|1||	
-|2||	
-|3||	
-|4||	
-|5||	
-|6||	
-|7||	
-|8||	
-|9||	
-|10||	
-|11||	
-|12||	
-|13||	
+|1|Definni l'image de base utiliser par le docker|	
+|2|definni le working directory dans le docker|	
+|3|copy les fichier de solution .sln du host vers le docker|	
+|4|copy les fichier .csproj du dossier aspnetapp de l'host vers le dossir aspnetapp du docker|	
+|5|restore les nuget package du projet dependament du .csproj copier plus tot|	
+|6|copy le dossier aspnetapp de l'host vers le dossier aspnetapp du docker|	
+|7|definni le working directory dans le docker etant maintenant aspnetapp|	
+|8|build et publishe l'application avec la configuration Release dans le dossier out|	
+|9|rien|	
+|10|cree une autre image a partir qui permet de partir l'application|	
+|11|definni le working directory dans la nouvelle image|	
+|12|copy ce que le le build de la premiere image a mis dans le out|	
+|13|definni le point d'entre du docker qui dit que quand il ouvre il devrait executer le aspnetapp.dll|	
 
 11- Dans un Dockerfile, expliquez la différence entre « ENTRYPOINT » et « CMD ». (1 point)
 
