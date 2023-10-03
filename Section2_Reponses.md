@@ -100,17 +100,16 @@ Soit le fichier « Dockerfile » suivant :
 
 11- Dans un Dockerfile, expliquez la différence entre « ENTRYPOINT » et « CMD ». (1 point)
 
-Réponse :
-
+Réponse : sont pratiquement pareil a part que le cmd donne l'argument par defaut a une commade et ne peut en avoir qu'une seul tandis que entrypoint donne la commande par defaut et ces argument et ont peut en avoir plusieur.
 
 12- À quoi servent les volumes dans Docker ? Expliquez ce qui peut se passer sans. (2 points)
 
-Réponse :
+Réponse : les volume servent a la persistance des donne puique sans eux les donne reste dans le docker et le docker est ferme tout les donne sont perdu aussi donc ce que fait les volume ces prendre les donner du docker pour les mettre sur la machine host
 
 
 13- Quels sont les différents types de volumes dans Docker ? Expliquez l’utilisation des deux types utilisés dans le cours. (2 points)
 
-Réponse :
+Réponse : les volume bind mount qui permette de montter un chemin du conteneur a un chemin de l'hote et les volume normale qui cree un un emplacement en dehors du systeme de fichier du docker qui garde les donne independament du docker.
 
 
 14- Quels sont les différents types de réseau de base dans Docker ? Expliquez le fonctionnement de chacun des types. En quoi le choix d’un réseau influence-t-il la sécurité ? (4 points)
