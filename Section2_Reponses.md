@@ -114,7 +114,7 @@ Réponse : les volume bind mount qui permette de montter un chemin du conteneur 
 
 14- Quels sont les différents types de réseau de base dans Docker ? Expliquez le fonctionnement de chacun des types. En quoi le choix d’un réseau influence-t-il la sécurité ? (4 points)
 
-Réponse :
+Réponse : le reseau par defaut est le bridge network qui connect les docker a reseau nomme bridge par defaut qui permet a tout les docker sur le meme bridge de communiquer ensemble mais pas aux autre docker sur un autre bridge et il peuvent touts communiquer avec le reseau de l'hote via NAT. Le host network utlise le network du host directement sans le NAT ce qui fait que le container aura de meilleur performance. Le
 
 
 15- Quel est l’intérêt d’utiliser Docker-Compose ? Qu’-est ce que ça permet de faire ? Qu’elle ait la différence avec Dockerfile ? Dans quel type d’environnement ça peut être utilisé ? (5 points)
