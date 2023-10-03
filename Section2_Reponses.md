@@ -13,7 +13,9 @@ Réponse : Les volume physique sont les collection de partion du disque qui sont
 
 Réponse : SSH: qui nous permet d'acceder a nos server de facon secure et qui est le successeur de telnet nous permettant de ouvrir un terminale et de faire des commade.
 
-ssss
+FTP: nous permettant de tranfere des fichier, les modifer et les supprimer entre notre ordinateur et un autre ordinateur sur le meme reseau.
+
+SCP: nous sert a copier des fichier et repertoire de facon secure entre en utilisant SSH.
 
 Les trois prochaines questions font références à l'image suivante :  
 
@@ -21,17 +23,17 @@ Les trois prochaines questions font références à l'image suivante :
 3- Pourquoi le deuxième champ du résultat de la commande est-il marqué d’un X ?
  (1 point)
 
-Réponse : 
+Réponse : il indique que le mot de passe n'est pas dans le fichier passwd mais dans le fichier shadow
 
 
 4- Donnez la raison d’être du dernier champ. (1 point)
 
-Réponse : 
+Réponse : ces le shell de defaut de l'utilisateur qui vas etre utliser lorsque l'utilisateur est connecter
 
 
 5- Est-ce qu’une autre valeur peut exister pour ce dernier champ ? Si oui, précisez. (1 point)
 
-Réponse : 
+Réponse : oui puisque bash n'est pas le seul shell qui peut etre utiliser par le systeme comme par exemple zsh qu'ont pourrait mettre a place de bash ce qui fait que lorsque l'utilisateur vas ce connecter le systeme vas utiliser zsh
 
 
 Les quatres prochaines questions font références à l'image suivante :  
@@ -39,24 +41,23 @@ Les quatres prochaines questions font références à l'image suivante :
  
 6- Quelle information vous donne la ligne se terminant par un point ? (1 point) 
 
-Réponse : 
+Réponse : il nous dis le repertoire ou ont ce trouve en ce moment
 
 
 7- Quelle information vous donne la ligne se terminant par deux points ? (1 point) 
 
-Réponse : 
+Réponse : ces le repertoire de niveau inferieur de celui que nous somme en ce moment 
 
 
 8- Quels sont les droits sur le fichier toto.txt ? (3 points)
 
-Réponse : 
+Réponse : read write pour l'utilisateur, read pour le groupe et read pour tous.
 
 
 
 9- Quelle commande (en forme octale), allez-vous utiliser pour modifier les droits sur le fichier toto.txt pour que ceux-ci soient maintenant les suivants : (2 points)  
  
-
-Réponse : 
+Réponse : chmod 755 toto.txt
 
 
 ### Concept 2 – Docker – 17 points
