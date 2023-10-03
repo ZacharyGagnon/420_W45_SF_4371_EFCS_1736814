@@ -15,7 +15,7 @@ Réponse :
 
 
 Les trois prochaines questions font références à l'image suivante :  
- ![La commande](images/commande.png "Commande")
+
  
 3- Pourquoi le deuxième champ du résultat de la commande est-il marqué d’un X ?
  (1 point)
@@ -34,7 +34,7 @@ Réponse :
 
 
 Les quatres prochaines questions font références à l'image suivante :  
- ![ls -al](images/listing.png "ls") 
+
  
 6- Quelle information vous donne la ligne se terminant par un point ? (1 point) 
 
@@ -53,7 +53,7 @@ Réponse :
 
 
 9- Quelle commande (en forme octale), allez-vous utiliser pour modifier les droits sur le fichier toto.txt pour que ceux-ci soient maintenant les suivants : (2 points)  
- ![Droits octal](images/octal.png "Droits octal") 
+ 
 
 Réponse : 
 
