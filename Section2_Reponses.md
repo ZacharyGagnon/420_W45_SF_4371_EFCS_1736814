@@ -6,13 +6,14 @@ Vous devez répondre aux questions suivantes. Vos réponses seront incluses dans
 
 1- Dans logical volume manager, expliquer la différence entre les volumes physiques, le groupe de volume et les volumes logiques. (3 points)  
 
-Réponse : 
+Réponse : Les volume physique sont les collection de partion du disque qui sont sur le disque physique. les volume logique sont la pour donner a l'utilisateur le controle sur un volume physique. le groupe de volume est ce qu'il entre les volume physique et le volume logique qui peut comprendre plusieur volume logique et physique.
 
 
 2- Nommez les trois types de connexion à distance présentés dans le cours et expliquez leurs raisons d’être. (3 points)  
 
-Réponse : 
+Réponse : SSH: qui nous permet d'acceder a nos server de facon secure et qui est le successeur de telnet nous permettant de ouvrir un terminale et de faire des commade.
 
+ssss
 
 Les trois prochaines questions font références à l'image suivante :  
 
