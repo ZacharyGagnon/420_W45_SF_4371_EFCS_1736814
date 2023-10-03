@@ -114,48 +114,48 @@ Réponse : les volume bind mount qui permette de montter un chemin du conteneur 
 
 14- Quels sont les différents types de réseau de base dans Docker ? Expliquez le fonctionnement de chacun des types. En quoi le choix d’un réseau influence-t-il la sécurité ? (4 points)
 
-Réponse : le reseau par defaut est le bridge network qui connect les docker a reseau nomme bridge par defaut qui permet a tout les docker sur le meme bridge de communiquer ensemble mais pas aux autre docker sur un autre bridge et il peuvent touts communiquer avec le reseau de l'hote via NAT. Le host network utlise le network du host directement sans le NAT ce qui fait que le container aura de meilleur performance. Le
+Réponse : le reseau par defaut est le bridge network qui connect les docker a reseau nomme bridge par defaut qui permet a tout les docker sur le meme bridge de communiquer ensemble mais pas aux autre docker sur un autre bridge et il peuvent touts communiquer avec le reseau de l'hote via NAT. Le host network utlise le network du host directement sans le NAT ce qui fait que le container aura de meilleur performance. Le custom network nous permet de cree notre propre reseau pour le docker ce qui nous permet l'utlisation d'un DNS qui rend le docker securiser.
 
 
 15- Quel est l’intérêt d’utiliser Docker-Compose ? Qu’-est ce que ça permet de faire ? Qu’elle ait la différence avec Dockerfile ? Dans quel type d’environnement ça peut être utilisé ? (5 points)
 
-Réponse :
+Réponse : docker-compose nous permet de creer nos propre  docker personnaliser de plus utiliser docker-compose nous permet de facilement monte des docker et de les utiliser. donc lorsque un docker-compose est fait il reste la pret etre utiliser en une seule commande rapide. la difference avec dockerfile est que ont ne peut pas monte un docker avec une seule commande avec seulement un dockerfile puisque ces une image donc un docker-compose utilise un dockerfile. et cela peut etre tres utile dans un environment de travaille ou ont utilise souvent des docker et que ce sont les meme a cahque fois. 
 
 
 ### Concept 3 – Les services – 12 points
 
 16- Expliquez la différence entre un serveur et un service. (2 points)
 
-Réponse : 
+Réponse : un serveur est une machine physique ou virtuel qui est specialiser pour recevoir des demnade et donne des service qui sont generalement des programme specific qui sont offert aux utilisateur donc une utilisateur communique avec les serveur qui offre des service a celui-ci 
 
 
 17- Dans le serveur Web httpd (Apache), donnez quatre (4) conteneurs (conteneur Apache et non Docker) pouvant accueillir les directives de configuration. (4 points)
 
-Réponse :
+Réponse : le conteneur global, le conteneur de l'hote virtuel, le conteneur de dossier et le conteneur de fichier.
 
 
 18- À quoi sert la notion d’hôte virtuel dans les serveurs Web. (2 points)
 
-Réponse :
+Réponse : sert avoir plusieur conteneur qui reponde aux demande du meme nom de serveur donc quand plusieur personne recherche www.google.com elles sont diriger sur plusieur conteneur different. 
 
 
 19- Serveur Nginx, dans quel bloc doit être placée la directive listen ? Qu’elle est sa fonction ? (2 points)
 
-Réponse :
+Réponse : la directive doit etre placer dans le bloc server et sert a dire aux nginx sur quel port ecouter exemple listen 80;
 
 
 20- À quoi sert la directive try\_files dans Nginx ? (2 points)
 
-Réponse :
+Réponse : elle sert a cree une liste the fichier ou d'url que le proxy devrait essayer quand il veut recupere des resource.
 
 
 ### Concept 4 – L’automatisation – 5 points
 
 21- À quel endroit intervient l’automatisation d’un processus DevOps ? (3 points)
 
-Réponse :
+Réponse : lors de la production
 
 
 22- Pourquoi les développeurs ont-ils besoin d’automatisation ? (2 points)
 
-Réponse :
+Réponse : puique les chose manuel prennent plus de temp et donc plus d'argent de plus l'automatisation n'est pas sujette a l'erreur humaine et est facilement testable
